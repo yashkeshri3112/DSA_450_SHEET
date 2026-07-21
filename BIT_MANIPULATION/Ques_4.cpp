@@ -16,7 +16,8 @@ public:
 };
 
 /* OPTIMISED APPROACH */
- DIMAG KHARAB KAR DEGA ISKA CODE 
+ //DIMAG KHARAB KAR DEGA ISKA CODE 
+ 
  class Solution {
 public:
     int countSetBits(int n) { 
