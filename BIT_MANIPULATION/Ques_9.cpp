@@ -31,7 +31,7 @@ int square(int n){
       answer =answer+(n<<i); //n*2^i iska mtlb hota hai
      }
      x=x>>1;//bits chota karne ke liye 
-     i++;;
+     i++;
    }
    return answer;
 }
