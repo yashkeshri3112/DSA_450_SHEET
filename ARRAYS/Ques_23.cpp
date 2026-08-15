@@ -1,7 +1,11 @@
-/* LONGEST CONSECUTIVE SUBSEQUENCE */
-class Solution {
+/* LONGEST CONSECUTIVE SUBSEQUENCE */ GEEKS FOR GEEKS 
+class Solution { 
   public:
     int longestConsecutive(vector<int>& arr) {
+        //edge case handle jo ki leetcode par hai
+        if(arr.empty()){
+            return 0;
+        }
         sort(arr.begin(),arr.end());
         int maxLength=1,length=1;
         for(int i=1;i<arr.size();i++){
