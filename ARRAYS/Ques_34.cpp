@@ -31,7 +31,7 @@ int size=ans.size();
 if(size%2==1){//iska mtlb hai ki arrays me odd elements hai iska mtlb direct median mil jayega 
     return ans[size/2];
     else{
-        return ans[size/2-1]+ans[size-2+1]/2.0;
+        return ans[size/2-1]+ans[size-2]/2.0;
 
     }
 
