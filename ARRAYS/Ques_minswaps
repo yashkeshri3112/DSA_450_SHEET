@@ -1,0 +1,24 @@
+//Minimum swaps to group elements <=k
+int minSwap(vector<int>&arr,int k){
+    int n=arr.size();
+    int count=0;
+    for(int i=0;i<n;i++){
+        if(arr[i]>k){
+            int j=i+1;
+            //agar next elements exist karta hai and <=k hain 
+            if(j<n&&arr[j]<=k){
+                swap(arr[i],arr[j]);
+                count++;
+            }
+            else if(j<n&&arr[j]>k){
+                //kuch mat karo
+
+            }
+            else{
+                //agar current element already <=k hai 
+                //kuch nahi karna
+            }
+        }
+        return count;
+    }
+};
