@@ -21,4 +21,5 @@ int minSwap(vector<int>&arr,int k){
         }
         return count;
     }
+}
 };
